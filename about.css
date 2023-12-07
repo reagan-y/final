@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.about-btn{
+    background-color:black;
+    width:50%;
+    height:100%;
+    text-align: center;
+    padding:6px;
+    color:white;
+    transition: .5s;
+    border-radius: 50px;
+    /* position:; */
+}
+
+/* .about-btn:hover{
+    border-radius: 50px;
+    color:white;
+} */
+
+.work-btn{
+    background-color:black;
+    width:50%;
+    height:100%;
+    text-align: center;
+    padding:6px;
+    color:white;
+    transition: .5s;
+    position:relative;
+    border-radius: 0;
+}
+
+.work-btn:hover{
+    border-radius: 50px;
+    
+}
+
+.nav{
+    /* background-color:red; */
+    width:50px;
+    height:40px;
+    position: fixed;
+    top:30px;
+    right:30px;
+    display:flex;
+}

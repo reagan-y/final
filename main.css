@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display:block;
+    margin:0 auto;
+    background-color: rgb(249, 246, 244);
+    transition:.5s;
+ }
+
+.main{
+    margin:0 auto;
+}
+
+.container{
+    padding:0, 30;
+    max-width:1000px;
+    background-color: rgb(249, 246, 244);
+    margin: 0 auto;
+    position:absolute;
+
+}
+
+.changeColor {
+    background-color: rgb(0, 0, 0);
+ }
+
+
+
+.name{
+    /* position:absolute; */
+    padding:30px;
+    text-wrap:wrap;
+    width: 50px;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 150px;
+    line-height: 110px;
+    color:black;
+    display:block;
+}
+
+.about{
+    /* position:absolute; */
+    top:230px;
+    width: 600px;
+    margin:30px;
+    margin-bottom: 200px;
+    text-wrap:wrap;
+    font-family: forma-djr-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 20px;
+    color:black;
+    display:block;
+}
+
+.projects{
+    padding:30px;
+    width: 100px;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 150px;
+    line-height: 110px;
+    color:black;
+    display:block;
+}
+
+.projectsdarkmode{
+    color:rgb(249, 246, 244)
+}
+
+.nav{
+    /* background-color:red; */
+    width:300px;
+    height:40px;
+    position: fixed;
+    top:30px;
+    right:30px;
+    display:flex;
+    z-index:10;
+}
+
+.about-btn{
+    background-color:black;
+    width:50%;
+    height:100%;
+    text-align: center;
+    padding:6px;
+    color:white;
+    transition: .5s;
+    font-family: forma-djr-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+    /* position:; */
+}
+
+.about-btn:hover{
+    border-radius: 50px;
+    color:white;
+}
+
+.work-btn{
+    background-color:black;
+    width:50%;
+    height:100%;
+    text-align: center;
+    padding:6px;
+    color:white;
+    transition: .5s;
+    position:relative;
+    border-radius: 50px;
+    font-family: forma-djr-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.work-btn:hover{
+    border-radius: 50px;
+    color:rgb(249, 246, 244);
+}
+
+.btndarkmode{
+    background-color:rgb(249, 246, 244);
+    color:black;
+}
+
+.contact-btn{
+    background-color:black;
+    width:33%;
+    height:100%;
+    text-align: center;
+    padding:8px;
+    color:white;
+    transition: .5s;
+    position:relative;
+}
+
+.contact-btn:hover{
+    border-radius: 50px;
+}
+
+
+.title1{
+    
+    /* position: absolute;
+    bottom:5px; */
+    color:rgb(249, 246, 244);
+    font-family: "forma-djr-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 auto;
+    margin-top:100px;
+    display:block;
+    max-width:640px;
+}
+
+.descrip1{
+    /* position:absolute;
+    top:1140px; */
+    max-width:640px;
+    color:rgb(249, 246, 244);
+    font-family: "forma-djr-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 auto;
+    /* margin-bottom:100px; */
+    display: block;
+    
+}
+
+
+/* .carousel-container{
+    margin-bottom: 100px;
+
+} */
+
+.carousel {
+    background: transparent;
+    
+    /* position:relative;
+    top:0; */
+    margin: 0 auto;
+    max-width:840px;
+    
+  }
+  
+.org{
+    /* top:720px; */
+}
+
+  .carousel img {
+    height: 400px;
+    margin-left: 200px;
+    margin-right:200px;
+  }
+
+  .flickity-button {
+    background: transparent;
+    color:rgb(249, 246, 244)
+  }
+
+  .flickity-button:hover{
+    background: transparent;
+    opacity: 70%;
+  }
+
+  .flickity-prev-next-button {
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  .bynumber{
+   
+    /* top:1020px; */
+
+  }
+
+  .mightygreen{
+
+  }
+
+  .aboutme{
+    margin:30px;
+    width: 800px;
+    font-family: forma-djr-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+
+  .column{
+    display:inline-block;
+    width: 30%;
+    margin:30px;
+    font-family: forma-djr-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+    
+  }
+  
